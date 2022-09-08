@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>1. Schedule-part should be readonly</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>update-view</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	if (!g_form.isNewRecord()){
+		setScheduleReadonly();
+	}
+}
+
+function setScheduleReadonly() {
+	var schedule_fields = ["number", "assigned_to", "priority", "schedule_start", "schedule_end", "short_description", "description"];
+	schedule_fields.forEach(function(field){
+		g_form.setReadOnly(field, true);
+	});
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 17:21:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>346d0bfd973551100b9ebc400153aff5</sys_id>
+        <sys_name>update-view</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="demo-scheduler" source="x_880819_demo_sche">92ddfa31973551100b9ebc400153af99</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo-scheduler">92ddfa31973551100b9ebc400153af99</sys_scope>
+        <sys_update_name>sys_script_client_346d0bfd973551100b9ebc400153aff5</sys_update_name>
+        <table>x_880819_demo_sche_demo_scheduler</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

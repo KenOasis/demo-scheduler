@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (demo-scheduler)">645e7671973551100b9ebc400153af6a</button>
+        <item_parameter display_value="demo-scheduler number">e85e7671973551100b9ebc400153af69</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 16:04:59</sys_created_on>
+        <sys_id>a85e7671973551100b9ebc400153af6b</sys_id>
+        <sys_name>e85e7671973551100b9ebc400153af69</sys_name>
+        <sys_package display_value="demo-scheduler" source="x_880819_demo_sche">92ddfa31973551100b9ebc400153af99</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo-scheduler">92ddfa31973551100b9ebc400153af99</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_a85e7671973551100b9ebc400153af6b</sys_update_name>
+        <ui_parameter display_value="Number">a05e7671973551100b9ebc400153af6b</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

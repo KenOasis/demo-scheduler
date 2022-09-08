@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>On the add new view when loading is finished.&#13;
+1. the accomplishement part should be hided. &#13;
+2. the field assigned to should have the default value as the current user.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>create-new-view</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    if (g_form.isNewRecord()) {
+        setAccomplishmentInvisible();
+        setAssignedTo();
+    }
+}
+
+function setAssignedTo() {
+    g_form.setValue("assigned_to", g_user.userID);
+}
+
+function setAccomplishmentInvisible() {
+    var accomplishment_fields = ["accomplished", "accomplished_time", "notes", "overdue"];
+    accomplishment_fields.forEach(function(field) {
+        g_form.setVisible(field, false);
+    });
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 16:33:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27420f75973551100b9ebc400153afbc</sys_id>
+        <sys_name>create-new-view</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="demo-scheduler" source="x_880819_demo_sche">92ddfa31973551100b9ebc400153af99</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo-scheduler">92ddfa31973551100b9ebc400153af99</sys_scope>
+        <sys_update_name>sys_script_client_27420f75973551100b9ebc400153afbc</sys_update_name>
+        <table>x_880819_demo_sche_demo_scheduler</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

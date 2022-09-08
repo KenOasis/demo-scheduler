@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="number" label="Number" language="en" table="x_880819_demo_sche_demo_scheduler">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <help/>
+            <hint/>
+            <label>Number</label>
+            <language>en</language>
+            <name>x_880819_demo_sche_demo_scheduler</name>
+            <plural>Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-08 16:04:26</sys_created_on>
+            <sys_name>Number</sys_name>
+            <sys_package display_value="demo-scheduler" source="x_880819_demo_sche">92ddfa31973551100b9ebc400153af99</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="demo-scheduler">92ddfa31973551100b9ebc400153af99</sys_scope>
+            <sys_update_name>sys_documentation_x_880819_demo_sche_demo_scheduler_number_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

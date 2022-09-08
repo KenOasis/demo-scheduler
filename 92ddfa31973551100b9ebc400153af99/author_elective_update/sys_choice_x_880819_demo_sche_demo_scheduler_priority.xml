@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="priority" table="x_880819_demo_sche_demo_scheduler" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <name>x_880819_demo_sche_demo_scheduler</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-08 16:07:52</sys_created_on>
+            <sys_name>priority</sys_name>
+            <sys_package display_value="demo-scheduler" source="x_880819_demo_sche">92ddfa31973551100b9ebc400153af99</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="demo-scheduler">92ddfa31973551100b9ebc400153af99</sys_scope>
+            <sys_update_name>sys_choice_x_880819_demo_sche_demo_scheduler_priority</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint>Most Important</hint>
+            <inactive>false</inactive>
+            <label>1 - important</label>
+            <language>en</language>
+            <name>x_880819_demo_sche_demo_scheduler</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-08 16:07:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>1 - important</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint>Just do it.</hint>
+            <inactive>false</inactive>
+            <label>2 - normal</label>
+            <language>en</language>
+            <name>x_880819_demo_sche_demo_scheduler</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-08 16:08:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>2 - normal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint>no worry!</hint>
+            <inactive>false</inactive>
+            <label>3 - Low</label>
+            <language>en</language>
+            <name>x_880819_demo_sche_demo_scheduler</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-08 16:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>3 - Low</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
