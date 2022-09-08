@@ -4,13 +4,13 @@
             <element>accomplished</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-08 16:20:11</sys_created_on>
-            <sys_id>07c18375973551100b9ebc400153afdb</sys_id>
+            <sys_created_on>2022-09-08 22:13:21</sys_created_on>
+            <sys_id>a4a2dcc2977951100b9ebc400153af97</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Accomplishment" display_value="Accomplishment" name="x_880819_demo_sche_demo_scheduler" sys_domain="global" view="Default view">32c18375973551100b9ebc400153afba</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-08 16:20:11</sys_updated_on>
+            <sys_updated_on>2022-09-08 22:13:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>accomplished_time</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-08 16:20:11</sys_created_on>
-            <sys_id>0bc18375973551100b9ebc400153afdb</sys_id>
+            <sys_created_on>2022-09-08 22:13:21</sys_created_on>
+            <sys_id>eca2dcc2977951100b9ebc400153af97</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Accomplishment" display_value="Accomplishment" name="x_880819_demo_sche_demo_scheduler" sys_domain="global" view="Default view">32c18375973551100b9ebc400153afba</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-08 16:20:11</sys_updated_on>
+            <sys_updated_on>2022-09-08 22:13:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,41 @@
             <element>notes</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-08 16:20:11</sys_created_on>
-            <sys_id>0fc18375973551100b9ebc400153afdb</sys_id>
+            <sys_created_on>2022-09-08 22:13:21</sys_created_on>
+            <sys_id>e0a2dcc2977951100b9ebc400153af98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Accomplishment" display_value="Accomplishment" name="x_880819_demo_sche_demo_scheduler" sys_domain="global" view="Default view">32c18375973551100b9ebc400153afba</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-08 16:20:11</sys_updated_on>
+            <sys_updated_on>2022-09-08 22:13:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_notificated</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-08 22:13:21</sys_created_on>
+            <sys_id>e4a2dcc2977951100b9ebc400153af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accomplishment" display_value="Accomplishment" name="x_880819_demo_sche_demo_scheduler" sys_domain="global" view="Default view">32c18375973551100b9ebc400153afba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-08 22:13:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>overdue</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-08 16:20:11</sys_created_on>
-            <sys_id>03c18375973551100b9ebc400153afdc</sys_id>
+            <sys_created_on>2022-09-08 22:13:21</sys_created_on>
+            <sys_id>e8a2dcc2977951100b9ebc400153af98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Accomplishment" display_value="Accomplishment" name="x_880819_demo_sche_demo_scheduler" sys_domain="global" view="Default view">32c18375973551100b9ebc400153afba</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-08 16:20:11</sys_updated_on>
+            <sys_updated_on>2022-09-08 22:13:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
