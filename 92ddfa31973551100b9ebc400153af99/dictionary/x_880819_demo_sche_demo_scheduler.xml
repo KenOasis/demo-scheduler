@@ -4,6 +4,7 @@
         <element label="Accomplished Time" max_length="40" name="accomplished_time" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Assigned to" mandatory="true" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element label="Description" mandatory="true" max_length="100" name="description" type="string"/>
+        <element label="is notificated" max_length="40" name="is_notificated" type="boolean"/>
         <element label="Notes" max_length="100" name="notes" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Overdue" max_length="40" name="overdue" read_only="true" type="boolean"/>
