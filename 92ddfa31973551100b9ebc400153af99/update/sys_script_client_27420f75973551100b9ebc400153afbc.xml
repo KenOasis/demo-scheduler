@@ -10,7 +10,7 @@
         <global>true</global>
         <isolate_script>false</isolate_script>
         <messages/>
-        <name>create-new-view</name>
+        <name>create-new-onload</name>
         <order/>
         <script><![CDATA[function onLoad() {
     if (g_form.isNewRecord()) {
@@ -36,7 +36,7 @@ function setAccomplishmentInvisible() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>27420f75973551100b9ebc400153afbc</sys_id>
-        <sys_name>create-new-view</sys_name>
+        <sys_name>create-new-onload</sys_name>
         <sys_overrides/>
         <sys_package display_value="demo-scheduler" source="x_880819_demo_sche">92ddfa31973551100b9ebc400153af99</sys_package>
         <sys_policy/>

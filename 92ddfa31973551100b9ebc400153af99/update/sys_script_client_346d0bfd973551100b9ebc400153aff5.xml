@@ -8,7 +8,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>update-view</name>
+        <name>update-onload</name>
         <order/>
         <script><![CDATA[function onLoad() {
 	if (!g_form.isNewRecord()){
@@ -28,7 +28,7 @@ function setScheduleReadonly() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>346d0bfd973551100b9ebc400153aff5</sys_id>
-        <sys_name>update-view</sys_name>
+        <sys_name>update-onload</sys_name>
         <sys_overrides/>
         <sys_package display_value="demo-scheduler" source="x_880819_demo_sche">92ddfa31973551100b9ebc400153af99</sys_package>
         <sys_policy/>
