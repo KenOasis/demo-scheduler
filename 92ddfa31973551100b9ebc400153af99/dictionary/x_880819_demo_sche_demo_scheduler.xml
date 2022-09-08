@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d83eb271973551100b9ebc400153af9a" label="demo-scheduler" max_length="40" name="x_880819_demo_sche_demo_scheduler" type="collection">
+        <element label="Accomplished" max_length="40" name="accomplished" type="boolean"/>
+        <element label="Accomplished Time" max_length="40" name="accomplished_time" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Assigned to" mandatory="true" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Description" mandatory="true" max_length="100" name="description" type="string"/>
+        <element label="Notes" max_length="100" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Overdue" max_length="40" name="overdue" read_only="true" type="boolean"/>
+        <element choice="1" label="priority" mandatory="true" max_length="40" name="priority" type="choice">
+            <choice>
+                <element hint="Most Important" inactive_on_update="false" label="1 - important" value="1 - important"/>
+                <element hint="Just do it." inactive_on_update="false" label="2 - normal" value="2 - normal"/>
+                <element hint="no worry!" inactive_on_update="false" label="3 - Low" value="3 - Low"/>
+            </choice>
+        </element>
+        <element label="Schedule end" mandatory="true" max_length="40" name="schedule_end" type="glide_date_time"/>
+        <element label="Schedule start" mandatory="true" max_length="40" name="schedule_start" type="glide_date_time"/>
+        <element label="Short Description" mandatory="true" max_length="40" name="short_description" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>
