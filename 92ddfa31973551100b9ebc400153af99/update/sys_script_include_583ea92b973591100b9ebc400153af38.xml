@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_880819_demo_sche.test_weather_api</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>test_weather_api</name>
+        <script><![CDATA[var test_weather_api = Class.create();
+test_weather_api.prototype = {
+    initialize: function() {},
+    getWeather: function() {
+
+        try {
+            var r = new sn_ws.RESTMessageV2('x_880819_demo_sche.weather', 'Default GET');
+            r.setStringParameterNoEscape('city_name', 'london');
+            r.setStringParameterNoEscape('app_id', '712c34244c0bde5d140194105d58dd39');
+
+            //override authentication profile 
+            //authentication type ='basic'/ 'oauth2'
+            //r.setAuthenticationProfile(authentication type, profile name);
+
+            //set a MID server name if one wants to run the message on MID
+            //r.setMIDServer('MY_MID_SERVER');
+
+            //if the message is configured to communicate through ECC queue, either
+            //by setting a MID server or calling executeAsync, one needs to set skip_sensor
+            //to true. Otherwise, one may get an intermittent error that the response body is null
+            //r.setEccParameter('skip_sensor', true);
+
+            var response = r.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+			gs.info("Weather status code: " + httpStatus + typeof httpStatus);
+			gs.info("Weather is: " + responseBody);
+        } catch (ex) {
+            var message = ex.message;
+        }
+    },
+    type: 'test_weather_api'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-13 20:54:57</sys_created_on>
+        <sys_id>583ea92b973591100b9ebc400153af38</sys_id>
+        <sys_name>test_weather_api</sys_name>
+        <sys_package display_value="demo-scheduler" source="x_880819_demo_sche">92ddfa31973551100b9ebc400153af99</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="demo-scheduler">92ddfa31973551100b9ebc400153af99</sys_scope>
+        <sys_update_name>sys_script_include_583ea92b973591100b9ebc400153af38</sys_update_name>
+    </sys_script_include>
+</record_update>
